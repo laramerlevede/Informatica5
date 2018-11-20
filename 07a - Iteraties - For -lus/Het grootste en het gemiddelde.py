@@ -1,10 +1,10 @@
 # input
 aantal_getallen = int(input('Aantal getallen: '))
-max = 0
-som = 0
+max = int(input('geef getal: '))
+som = max
 
 # berekeningen
-for i in range(aantal_getallen):
+for i in range(aantal_getallen - 1):
     getal = int(input('geef getal: '))
     if i == 0:
         max = getal
